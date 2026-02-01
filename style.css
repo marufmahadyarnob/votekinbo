@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'BanglaFont';
+  src: url('font.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'BanglaFont', Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background: #ffffff;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0a8f08;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* ===== Hero ===== */
+.hero {
+  background: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.green { color: #0a8f08; }
+.red { color: #d40000; }
+
+.buttons {
+  margin-top: 25px;
+}
+
+.btn {
+  padding: 12px 28px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.btn-buy {
+  background: #0a8f08;
+  color: white;
+}
+
+.btn-sell {
+  background: white;
+  color: #0a8f08;
+  border: 2px solid #0a8f08;
+}
+
+/* ===== Section ===== */
+.section {
+  padding: 50px 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.tag {
+  display: inline-block;
+  background: #e8f5e9;
+  color: #0a8f08;
+  padding: 3px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #ffffff;
+  color: #777;
+}
